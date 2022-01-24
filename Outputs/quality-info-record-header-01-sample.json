@@ -1,0 +1,33 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-quality-info-record-reads/SAP_API_Caller/caller.go#L53",
+	"function": "sap-api-integrations-quality-info-record-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"Material": "QM002",
+			"QltyInProcmtIntID": "1",
+			"Supplier": "11300006",
+			"Plant": "1110",
+			"MaterialRevisionLevel": "",
+			"QltyInProcmtReleaseValidTo": "/Date(253402214400000)/",
+			"BaseUnit": "PC",
+			"ReleasedQuantity": "15",
+			"BlockReason": "Quality Limitation (Q-Inf)",
+			"ProcurementBlock": "",
+			"QltyInProcmtRelQtyIsActive": "Y",
+			"QltyInProcmtInspControl": "",
+			"ProdnPieceApprovalIsRequired": "N",
+			"ProductionPieceApproval": "",
+			"ProductionPieceApprovalLevel": "",
+			"ProductionPieceApprovalStatus": "",
+			"IsDeleted": "",
+			"QualityManagementSystem": "",
+			"QltyInProcmtCertfnValidTo": "",
+			"InspectionLotType": "",
+			"QltyInProcmtLotCrtnLeadTime": 0,
+			"QltyInProcmtCertificateCtrl": "",
+			"QltyInProcmtLongText": ""
+		}
+	],
+	"time": "2022-01-24T17:30:01.303927+09:00"
+}
