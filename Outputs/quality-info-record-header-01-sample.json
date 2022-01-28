@@ -9,7 +9,7 @@
 			"Supplier": "11300006",
 			"Plant": "1110",
 			"MaterialRevisionLevel": "",
-			"QltyInProcmtReleaseValidTo": "/Date(253402214400000)/",
+			"QltyInProcmtReleaseValidTo": "9999-12-31T09:00:00+09:00",
 			"BaseUnit": "PC",
 			"ReleasedQuantity": "15",
 			"BlockReason": "Quality Limitation (Q-Inf)",
@@ -29,5 +29,5 @@
 			"QltyInProcmtLongText": ""
 		}
 	],
-	"time": "2022-01-24T17:30:01.303927+09:00"
+	"time": "2022-01-28T16:46:53+09:00"
 }

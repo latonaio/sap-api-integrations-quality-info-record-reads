@@ -89,9 +89,9 @@ func (c *SAPAPICaller) AsyncGetQualityInfoRecord(material, supplier, plant strin
 ```
 
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 品質情報レコード の ヘッダデータ が取得された結果の JSON の例です。  
-以下の項目のうち、"Material" ～ "QltyInProcmtLongText" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"Material" ～ "QltyInProcmtLongText" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -105,7 +105,7 @@ func (c *SAPAPICaller) AsyncGetQualityInfoRecord(material, supplier, plant strin
 			"Supplier": "11300006",
 			"Plant": "1110",
 			"MaterialRevisionLevel": "",
-			"QltyInProcmtReleaseValidTo": "/Date(253402214400000)/",
+			"QltyInProcmtReleaseValidTo": "9999-12-31T09:00:00+09:00",
 			"BaseUnit": "PC",
 			"ReleasedQuantity": "15",
 			"BlockReason": "Quality Limitation (Q-Inf)",
@@ -125,7 +125,6 @@ func (c *SAPAPICaller) AsyncGetQualityInfoRecord(material, supplier, plant strin
 			"QltyInProcmtLongText": ""
 		}
 	],
-	"time": "2022-01-24T17:30:01.303927+09:00"
+	"time": "2022-01-28T16:46:53+09:00"
 }
-
 ```　　
